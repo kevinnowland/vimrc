@@ -191,6 +191,9 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
+set number
+nnoremap <silent> <Esc><Esc> :let @/=""<CR>
+
 
 """"""""""""""""""""""""""""""
 " => Visual mode related
